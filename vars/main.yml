@@ -1,0 +1,4 @@
+---
+# vars file for hadoop_clientnode
+Name_Node_Hdfs_Port: "9001"
+Job_Tracker_Mapreduce_Port: "9002"
