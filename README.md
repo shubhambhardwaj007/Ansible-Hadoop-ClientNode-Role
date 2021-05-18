@@ -22,10 +22,12 @@ None
 
 Example Playbook
 ----------------
-> - hosts: client_node
->   roles:
->     - shubhambhardwaj007.ansible_hadoop_software_installation_role
->     - shubhambhardwaj007.ansible_hadoop_clientNode_role
+```
+ - hosts: client_node
+   roles:
+     - shubhambhardwaj007.ansible_hadoop_software_installation_role
+     - shubhambhardwaj007.ansible_hadoop_clientNode_role
+```
 License
 -------
 
