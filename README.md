@@ -10,11 +10,11 @@ For a full usage example with the `shubhambhardwaj007.ansible_hadoop_software_in
 Role Variables
 --------------
 Available variables are listed below, along with default values (see vars/main.yml):
-> Name_Node_Hdfs_Port: "9001"
-> Job_Tracker_Mapreduce_Port: "9002"
-
-The `Name_Node_Hdfs_Port` should be similar to exposed port by Hadoop Master Node.
-The `Job_Tracker_Mapreduce_Port` should be similar to exposed port by Hadoop Job Tracker Node.
+```
+ Name_Node_Hdfs_Port: "9001"
+ Job_Tracker_Mapreduce_Port: "9002"
+```
+The `Name_Node_Hdfs_Port` should be similar to exposed port by Hadoop Master Node.The `Job_Tracker_Mapreduce_Port` should be similar to exposed port by Hadoop Job Tracker Node.
 
 Dependencies
 ------------
@@ -31,9 +31,8 @@ Example Playbook
 License
 -------
 
-BSD
+GNU
 
 Author Information
 ------------------
-
-An optional section for the role authors to include contact information, or a website (HTML is not allowed).
+This role was created in 2021 by Shubham Bhardwaj
