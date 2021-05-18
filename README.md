@@ -9,8 +9,8 @@ For a full usage example with the `shubhambhardwaj007.ansible_hadoop_software_in
 
 Role Variables
 --------------
-
 Available variables are listed below, along with default values (see vars/main.yml):
+
 Dependencies
 ------------
 
