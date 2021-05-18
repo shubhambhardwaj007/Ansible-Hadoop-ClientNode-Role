@@ -37,4 +37,4 @@ GNU
 
 Author Information
 ------------------
-This role was created in 2021 by Shubham Bhardwaj
+This role was created in 2021 by [Shubham Bhardwaj](https://galaxy.ansible.com/shubhambhardwaj007/hadoop_clientnode)
