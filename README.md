@@ -1,3 +1,5 @@
+<a href="http://www.pidramble.com"><img src="" width="100%" height="73"></a>
+
 # Ansible-Hadoop-ClientNode-Role
 
 An Ansible Role to Configure and setup [Hadoop](https://hadoop.apache.org/) Client Node.
