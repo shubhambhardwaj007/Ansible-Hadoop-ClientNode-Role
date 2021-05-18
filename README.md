@@ -1,4 +1,4 @@
-<a href="http://www.pidramble.com"><img src="" width="100%" height="73"></a>
+<a href="https://hadoop.apache.org/"><img src="images/Hadoop_logo.svg" width="100%" height="73"></a>
 
 # Ansible-Hadoop-ClientNode-Role
 
