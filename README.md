@@ -6,8 +6,8 @@ An Ansible Role to Configure and setup [Hadoop](https://hadoop.apache.org/) Clie
 
 Requirements
 ------------
-This role is dependent upon `shubhambhardwaj007.ansible_hadoop_software_installation_role`.
-For a full usage example with the `shubhambhardwaj007.ansible_hadoop_software_installation_role` role, see the Example Playbook later in this README.
+This role is dependent upon `shubhambhardwaj007.hadoop_software_setup`.
+For a full usage example with the `shubhambhardwaj007.hadoop_software_setup` role, see the Example Playbook later in this README.
 
 Role Variables
 --------------
@@ -27,7 +27,7 @@ Example Playbook
 ```
  - hosts: client_node
    roles:
-     - shubhambhardwaj007.ansible_hadoop_software_installation_role
+     - shubhambhardwaj007.hadoop_software_setup
      - shubhambhardwaj007.ansible_hadoop_clientNode_role
 ```
 License
