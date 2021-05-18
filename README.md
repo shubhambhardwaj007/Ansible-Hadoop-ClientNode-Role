@@ -1,30 +1,31 @@
 # Ansible-Hadoop-ClientNode-Role
 
-An Ansible Role to Configure and setup ![Hadoop](https://hadoop.apache.org/) Client Node.
+An Ansible Role to Configure and setup [Hadoop](https://hadoop.apache.org/) Client Node.
 
 Requirements
 ------------
-This role is dependent upon `shubhambhardwaj007.ansible_hadoop_software_installation`.
-For a full usage example with the `shubhambhardwaj007.ansible_hadoop_software_installation` role, see the Example Playbook later in this README.
+This role is dependent upon `shubhambhardwaj007.ansible_hadoop_software_installation_role`.
+For a full usage example with the `shubhambhardwaj007.ansible_hadoop_software_installation_role` role, see the Example Playbook later in this README.
 
 Role Variables
 --------------
 Available variables are listed below, along with default values (see vars/main.yml):
+> Name_Node_Hdfs_Port: "9001"
+> Job_Tracker_Mapreduce_Port: "9002"
+
+The `Name_Node_Hdfs_Port` should be similar to exposed port by Hadoop Master Node.
+The `Job_Tracker_Mapreduce_Port` should be similar to exposed port by Hadoop Job Tracker Node.
 
 Dependencies
 ------------
-
-A list of other roles hosted on Galaxy should go here, plus any details in regards to parameters that may need to be set for other roles, or variables that are used from other roles.
+None
 
 Example Playbook
 ----------------
-
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
-
-    - hosts: servers
-      roles:
-         - { role: username.rolename, x: 42 }
-
+> - hosts: client_node
+>   roles:
+>     - shubhambhardwaj007.ansible_hadoop_software_installation_role
+>     - shubhambhardwaj007.ansible_hadoop_clientNode_role
 License
 -------
 
